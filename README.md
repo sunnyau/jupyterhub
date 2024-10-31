@@ -30,6 +30,9 @@ To start the Hub server, run the command:
 jupyterhub
 Visit http://localhost:8000 in your browser, and sign in with your Unix credentials.
 
+![Screenshot (31)](https://github.com/user-attachments/assets/33c29a6d-4b1a-45d1-86ef-c69241403dbf)
+
+
 ## useful conda commands
 
 ```
