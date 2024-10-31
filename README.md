@@ -32,7 +32,6 @@ Visit http://localhost:8000 in your browser, and sign in with your Unix credenti
 
 ## Add a user in jupyterhub_config.py
 
-
 ```
 c.Authenticator.allowed_users = {'sunny'}
 ```
