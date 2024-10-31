@@ -75,6 +75,8 @@ dependencies:
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.21.3=h659f571_0
   - ld_impl_linux-64=2.43=h712a8e2_2
+  - libblas=3.9.0=25_linux64_openblas
+  - libcblas=3.9.0=25_linux64_openblas
   - libcurl=8.10.1=hbbe4b11_0
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=hd590300_2
@@ -82,9 +84,13 @@ dependencies:
   - libffi=3.4.2=h7f98852_5
   - libgcc=14.2.0=h77fa898_1
   - libgcc-ng=14.2.0=h69a702a_1
+  - libgfortran-ng=8.2.0=hdf63c60_1
+  - libgfortran5=14.2.0=hd5240d6_1
   - libgomp=14.2.0=h77fa898_1
+  - liblapack=3.9.0=25_linux64_openblas
   - libmpdec=4.0.0=h4bc722e_0
   - libnghttp2=1.64.0=h161d5f1_0
+  - libopenblas=0.3.28=pthreads_h94d23a6_0
   - libsodium=1.0.18=h7b6447c_0
   - libsqlite=3.47.0=hadc24fc_1
   - libssh2=1.11.0=h0841786_0
@@ -105,11 +111,13 @@ dependencies:
   - nodejs=22.9.0=hf235a45_0
   - notebook=7.2.2=pyhd8ed1ab_0
   - notebook-shim=0.2.4=pyhd8ed1ab_0
+  - numpy=2.1.2=py313h4bf6692_0
   - oauthlib=3.2.2=pyhd8ed1ab_0
   - openssl=3.3.2=hb9d3cd8_0
   - overrides=7.4.0=py313h06a4308_0
   - packaging=24.1=pyhd8ed1ab_0
   - pamela=1.2.0=pyhff2d567_0
+  - pandas=2.2.3=py313ha87cce1_1
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.3=pyhd3eb1b0_0
   - pexpect=4.8.0=pyhd3eb1b0_3
@@ -133,6 +141,7 @@ dependencies:
   - python-dateutil=2.9.0=pyhd8ed1ab_0
   - python-fastjsonschema=2.16.2=py313h06a4308_0
   - python-json-logger=2.0.7=pyhd8ed1ab_0
+  - python-tzdata=2023.3=pyhd3eb1b0_0
   - python_abi=3.13=5_cp313
   - pytz=2024.1=py313h06a4308_0
   - pyyaml=6.0.2=py313h536fd9c_1

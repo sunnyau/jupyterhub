@@ -30,6 +30,19 @@ To start the Hub server, run the command:
 jupyterhub
 Visit http://localhost:8000 in your browser, and sign in with your Unix credentials.
 
+## Add a user in jupyterhub_config.py
+
+
+```
+c.Authenticator.allowed_users = {'sunny'}
+```
+
+https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/config-basics.html
+
+https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/authenticators-users-basics.html
+
+
+
 ## useful conda commands
 
 ```
