@@ -53,8 +53,9 @@ conda create --name jupyterhub
 conda env export > environment.yaml
 ```
 
-
 ## Result
+
+![Screenshot (33)](https://github.com/user-attachments/assets/4d00194f-1114-4e3e-8abb-00d0767a6077)
 
 
 
